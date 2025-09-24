@@ -4,7 +4,7 @@
 	$host = "localhost";
 	$user = "root";
 	$pwd = "";
-	$dbname = "msu";
+	$dbname = "msu_anty";
 	$conn = mysqli_connect($host,$user,$pwd,$dbname);
 	mysqli_query($conn, "SET NAMES utf8");
 	
